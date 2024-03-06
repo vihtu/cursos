@@ -293,6 +293,8 @@ nav ul li a:hover {
 .main-botton {
   background-color: var(--cor-p2);
   color: var(--cor-w);
+  color: var(--cor-l);
+
   padding: 0.625rem 1.125rem;
   border-radius: 0.5rem;
   border: none;
@@ -493,7 +495,8 @@ nav ul li a:hover {
   }
 }
 :root {
-  --cor-w: #ffffff;
+  --cor-w: #006ba8;
+  --cor-l: #f7f7f7;
   --cor-1: #f7f7f7;
   --cor-2: #eaeaea;
   --cor-3: #d3d3d3;
@@ -514,6 +517,9 @@ nav ul li a:hover {
 
 .cor-w {
   color: var(--cor-w);
+}
+.cor-l {
+  color: var(--cor-l);
 }
 .cor-1 {
   color: var(--cor-1);
